@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../../moi.jpg";
+import ProfilePic from "../../hello.jpg";
 import githubLogo from "../../skillLogos/githubLogo.png";
 import CVLogo from "../../Contact-Folder/cv.png";
 
