@@ -189,7 +189,7 @@ nav ul li {
 
 /* ******************* About Me ******************* */
 .about-me {
-  /*color: var(--primary-white);*/
+  color: var(--primary-white);
   background-color: var(--secondary-black);
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
@@ -282,7 +282,7 @@ nav ul li {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: auto !important;
   background-color: var(--primary-black);
-  /*color: var(--primary-dark);*/
+  color: var(--primary-white);
   max-width: 100% !important;
   /* height: 100% !important; */
   /* margin: 0px !important; */

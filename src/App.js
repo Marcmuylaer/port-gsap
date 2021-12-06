@@ -11,7 +11,7 @@ import ContactForm from './Components/Contact';
 import Footer from './Components/Footer';
 import Background from './Components/Background';
 import Appgsap   from "./Appgsap";
-
+import Seasonx  from "./Seasonx"
 /*import Apptol from "./Apptol";*/
 /*import FakeNav from "./Components/FakeNav";*/
 
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div> 
-      <Background /> 
+      <Seasonx /> 
       <Appgsap />
       <Navbar />
       <Header />

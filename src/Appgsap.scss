@@ -56,13 +56,13 @@ html {
               content: "";
               width: 56px;
               height: 1px;
-              background: #f9ab00;
+              /*background: #f9ab00;*/
               top: 50%;
               left: -68px;
             }
             .expl
             button {
-              background: #f9ab00;
+              /*background: #f9ab00;*/
               background: none;
               border: none;
               font-size: 12px;
@@ -83,7 +83,7 @@ html {
                 align-items: center;
                 justify-content: center;
                 /*background: #007fff;*/
-                background-color:  #f9ab00;;
+                /*background-color:  #f9ab00;*/
                 height: 48px;
                 width: 48px;
                 border-radius: 100px;
@@ -96,7 +96,7 @@ html {
         }
       }
       .hero-images {
-        width: 50%;
+        width: 70%;
         height: 100vh;
         position: relative;
         .hero-images-inner {
@@ -104,16 +104,16 @@ html {
             position: absolute;
             overflow: hidden;
             &.girl {
-              top: 0;
-              right: 0px;
-              width: 45%;
-              height: 50%;
+              top: 200px;
+              right: 90px;
+              width: 75%;
+              height: 90%;
             }
             &.boy {
-              bottom: 24px;
-              left: 0px;
-              width: 52%;
-              height: 65%;
+              bottom: -100px;
+              left: 10px;
+              width: 85%;
+              height: 85%;
             }
             img {
               position: absolute;

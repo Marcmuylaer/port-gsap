@@ -3,7 +3,7 @@ import "./Appgsap.css";
 import {TimelineLite ,TweenMax, Power3} from 'gsap/all';
 
 import imgGirl from "./seigneur1.jpg";
-import imgBoy from "./seigneur.png";
+import imgBoy from "./seigneur2.jpg";
 import arrow from './logoseigneur2.jpg';
 
 function Appgsap() {
