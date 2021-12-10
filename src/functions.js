@@ -3,7 +3,8 @@ import WinterBackground from './images/winter.png';
 import SpringBackground from './images/spring.png';
 import SummerBackground from './images/summer.png';
 import FallBackground from './images/fall.png';
-import WinterDroplet from './images/snowflake.png';
+/*import WinterDroplet from './images/snowflake.png';*/
+import WinterDroplet from './images/ring.jpg';
 import SpringDroplet from './images/raindrop.png';
 import SummerDroplet from './images/feather.png';
 import FallDroplet from './images/leaf.png';
