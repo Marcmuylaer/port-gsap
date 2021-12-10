@@ -86,7 +86,7 @@ html {
                 /*background-color:  #f9ab00;*/
                 height: 48px;
                 width: 48px;
-                border-radius: 100px;
+                border-radius: 50px;
                 margin-left: 16px;
                 left: 64px;
                 transform-origin: center center;
@@ -105,15 +105,16 @@ html {
             overflow: hidden;
             &.girl {
               top: 200px;
-              right: 90px;
+              right: 0px;
               width: 75%;
               height: 90%;
             }
             &.boy {
-              bottom: -100px;
+              top: 300px;
+              
               left: 10px;
-              width: 85%;
-              height: 85%;
+              width: 75%;
+              height: 90%;
             }
             img {
               position: absolute;

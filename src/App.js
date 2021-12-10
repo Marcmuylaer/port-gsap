@@ -9,17 +9,15 @@ import Timeline from './Components/Experience/Timeline';
 import Portfolio from './Components/Portfolio/Portfolio-Con';
 import ContactForm from './Components/Contact';
 import Footer from './Components/Footer';
-import Background from './Components/Background';
 import Appgsap   from "./Appgsap";
-import Seasonx  from "./Seasonx"
-/*import Apptol from "./Apptol";*/
-/*import FakeNav from "./Components/FakeNav";*/
+import Seasonx  from "./Seasonx";
+import VideoPlayer from "./VideoPlayer";
 
 function App() {
 
   return (
     <div> 
-      <Seasonx /> 
+      <Seasonx />
       <Appgsap />
       <Navbar />
       <Header />
