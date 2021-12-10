@@ -1,0 +1,30 @@
+.video-player {
+    /*background: url('./gandalf.jpg') no-repeat;*/
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .video-player__source {
+    width: 450px;
+    height: 200px;
+  }
+  
+  .btn-play,
+  .btn-stop {
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+    background: rgb(52, 112, 180);
+    color: rgb(226, 236, 233);
+    margin: 1em;
+    padding: 0.25em 1em;
+    border: 7px solid rgb(112, 216, 168);
+    border-radius: 3px;
+  }
+
+  
+  

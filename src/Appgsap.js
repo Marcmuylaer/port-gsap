@@ -1,10 +1,10 @@
 import React, {useEffect, useRef} from "react";
 import "./Appgsap.css";
-import {TimelineLite ,TweenMax, Power3} from 'gsap/all';
-
+import {TimelineLite ,TweenMax, Power3} from 'gsap';
 import imgGirl from "./seigneur1.jpg";
 import imgBoy from "./seigneur2.jpg";
 import arrow from './logoseigneur2.jpg';
+import VideoPlayer from "./VideoPlayer";
 
 function Appgsap() {
   let app = useRef(null)
@@ -65,7 +65,8 @@ function Appgsap() {
               <div className="btn-row">
                 <button className="explore-button"> you shall not pass..
                   <div className="arrow-icon">
-                  <img src={arrow} alt="row"/>
+                       <img src={VideoPlayer} alt="row"/> 
+                       <VideoPlayer />
                   </div>
                 </button>
               </div>
