@@ -3,7 +3,7 @@ import "./Appgsap.css";
 import {TimelineLite ,TweenMax, Power3} from 'gsap';
 import imgGirl from "./seigneur1.jpg";
 import imgBoy from "./seigneur2.jpg";
-import arrow from './logoseigneur2.jpg';
+import Sauron from './Sauron.jpg';
 import VideoPlayer from "./VideoPlayer";
 
 function Appgsap() {
@@ -65,7 +65,7 @@ function Appgsap() {
               <div className="btn-row">
                 <button className="explore-button"> you shall not pass..
                   <div className="arrow-icon">
-                       <img src={VideoPlayer} alt="row"/> 
+                       
                        <VideoPlayer />
                   </div>
                 </button>
