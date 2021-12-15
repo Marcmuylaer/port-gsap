@@ -557,12 +557,13 @@ nav ul li {
   background-color: var(--primary-black);
   color: var(--primary-white);
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 10rem;
+  padding-bottom: 40rem;
   max-width: 100% !important;
-  /* height: 100% !important; */
-  /* margin: 0px !important; */
-  /* padding: 0px !important; */
+  height: 150% !important; 
+  width: 100% !important;
+  margin: 75px !important; 
+  padding: 5075 !important; 
   overflow-x: hidden; 
 }
 
@@ -589,11 +590,12 @@ nav ul li {
 /* ******************* Contact me  ******************* */
 
 .contact-wraper {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  margin: 50px !important; 
+  padding: 50px !important; 
   background-color:rgb(30, 97, 160);
   text-align: center;
-  max-width: 100% !important;
+  height: 100% !important; 
+  width: 50% !important;
   overflow-x: hidden; 
 }
 

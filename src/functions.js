@@ -3,8 +3,8 @@ import WinterBackground from './images/winter.png';
 import SpringBackground from './images/spring.png';
 import SummerBackground from './images/summer.png';
 import FallBackground from './images/fall.png';
-/*import WinterDroplet from './images/snowflake.png';*/
-import WinterDroplet from './images/ring.jpg';
+import WinterDroplet from './images/snowflake.png';
+/*import WinterDroplet from './images/ring.jpg';*/
 import SpringDroplet from './images/raindrop.png';
 import SummerDroplet from './images/feather.png';
 import FallDroplet from './images/leaf.png';
@@ -53,7 +53,7 @@ const generateAnimationSwaying = season => {
 }
 const generateFilter = season => {
     if(season === 'winter') {
-        return `brightness(${Math.random() * 1 + 1}) hue-rotate(${Math.random() * 90 - 45}deg)`;
+        return `brightness(${Math.random() * .5 + 1}) hue-rotate(${Math.random() * 60 - 45}deg)`;
     }
     else if(season === 'spring') {
         return `brightness(${Math.random() * .5 + .5}) hue-rotate(${Math.random() * 60 - 30}deg)`;
