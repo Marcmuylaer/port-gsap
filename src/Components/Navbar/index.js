@@ -7,7 +7,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 // React Scroll
 import { Link } from "react-scroll";
 import Particles from "react-particles-js";
-import Background from "../Background";
 
 const Navbar = () => {
   
