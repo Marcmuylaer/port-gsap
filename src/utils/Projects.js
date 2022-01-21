@@ -16,8 +16,8 @@ const Projects = [
   },
   {
     name: "Weather App",
-    github: "https://github.com/IvanTorresMia/My-Weather-app-Ivan",
-    Deployed: "https://ivantorresmia.github.io/My-Weather-app-Ivan/",
+      github: "https://github.com/Marcmuylaer/wheater",
+      Deployed: "https://marcmuylaer.github.io/wheater/",
     img: Weather,
     discription:
       "Weather App mainly using, jQuery, Ajax, Third party API, and local storage.",
